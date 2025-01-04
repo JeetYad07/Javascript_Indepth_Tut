@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+</head>
+<body>
+    <button>Button Clicked</button>
+    <script>
+        class React {
+            constructor(){
+                this.libraray = "React",
+                this.server = "https:localhost:3000"
+                // requirement: on creation of a new object, we should get the button refernce 
+                // and some operation value
+                document
+                    .querySelector('button')
+                    .addEventListener('click',this.handleClick.bind(this))
+            }
+
+            handleClick(){
+                console.log(`button clicked`);
+                console.log(this.libraray);
+                console.log(this.server);
+                
+                
+            }
+        }
+
+        const app = new React()
+    </script>
+
+    <!-- <script>
+        class React {
+            constructor(){
+                this.libraray = "React"
+                this.server = "https://localhost:3000"
+                // requirment: on page load a new object created, after creation we should get
+                // refernce of button and message the operation has been done
+                document
+                    .querySelector('button')
+                    .addEventListener('click',this.handleClick.bind(this))
+
+            }
+            handleClick(){
+                console.log(`Button clicked`);
+                // Why it is not able to find the server value
+                // this is because constructor variables not getting attached 
+                // even after the refernce is being passed
+
+                console.log(this.server)
+                
+            }
+            
+        }
+
+        const app = new React()
+    </script> -->
+</body>
+</html>

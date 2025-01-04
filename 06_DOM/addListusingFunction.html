@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Items</title>
+</head>
+<body style="background-color: #212121;color: white;">
+    <ul class="list-item">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+   function addLanguagetoList(addLang){
+        const li = document.createElement('li')
+        li.innerText = `${addLang}`
+        document.querySelector('.list-item').appendChild(li)
+        // console.log(li)
+   }
+   addLanguagetoList('Java')
+
+
+   function addOptimizedwaytoList(language){
+      const li =   document.createElement('li');
+    //   console.log(li)
+      li.appendChild(document.createTextNode(language));
+      document.querySelector('.list-item').appendChild(li);
+   }
+
+   addOptimizedwaytoList('Python')
+
+
+//    Edit
+   const firstLang = document.querySelector('li:first-child')
+
+   firstLang.outerHTML = "<li>Typescript</li>"
+    // firstLang.textContent = "Javascript"
+    // console.log(firstLang)
+
+    const secondLang = document.querySelector('li:nth-child(2)')
+    console.log(secondLang)
+
+    const newLi = document.createElement('li')
+    newLi.textContent = "Mojo"
+    secondLang.replaceWith(newLi)
+
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
+
+
+</script>
+</html>

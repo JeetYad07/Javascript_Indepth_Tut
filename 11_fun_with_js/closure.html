@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+<body style="background-color: #313131;">
+    <button id="orange">Orange</button>
+    <button id="green">Green</button>
+
+</body>
+<script>
+    // function init(){
+
+    //     let name = "Mozilla"; 
+    //     function displayName() {
+        
+    //         console.log(name); 
+    //     }
+    //         displayName();
+    // }
+    // init(); 
+    // if a func contain another func, inner fun can have access of the outer, this phenomena called
+    // lexical scoping
+//     
+
+    function makeFunc() {
+        const name = "Mozilla";
+        function displayName() {
+            console.log(name);
+        }
+        return displayName;
+    }
+
+    const myFunc = makeFunc();
+    myFunc();
+// here in above example, makeFunc when executes, 
+// it got the refernce of displayName and outer fun variable refernece due to lexical scoping
+// closure: when we are returning a complete inner func, it not returning only inner but also the complete scope or lexical scope
+</script>
+
+<script>
+
+// document.getElementById('orange').onclick = function(){
+//     document.body.style.backgroundColor = "Orange"
+// }
+
+// document.getElementById('green').onclick = function(){
+    // document.body.style.backgroundColor = "green"
+// }
+
+
+// suppose now we have more than 10 buttons or even if we have 100 buttons
+// then how we proceed
+
+// practical example of closure
+function handleClick(color){
+    //  document.body.style.backgroundColor = `${color}`
+   return function(){
+        document.body.style.backgroundColor = `${color}`
+    }
+}
+// onclick :need a excutable
+document.getElementById('orange').onclick = handleClick("orange")
+
+document.getElementById('green').onclick = handleClick("green")
+
+</script>
+</html>

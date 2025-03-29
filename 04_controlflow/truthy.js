@@ -2,11 +2,11 @@
 // We are assuming that above is true
 const userEmail = []
 // console.log(true)
-if(userEmail){
-    console.log(`Got User Email`)
-}else{
-    console.log(`Don't have user email`);
-}
+// if(userEmail){
+//     console.log(`Got User Email`)
+// }else{
+//     console.log(`Don't have user email`);
+// }
 
 // +++++++++++++ Interview   +++++++++++++
 // There are some rules for truthy and falsy values
@@ -33,7 +33,7 @@ let val1;
 // val1 = null ?? 10
 // val1 = undefined ?? 4
 // val1 = null ?? undefined ?? 4
-console.log(val1);
+// console.log(val1);
 
 
 // Terniary operator

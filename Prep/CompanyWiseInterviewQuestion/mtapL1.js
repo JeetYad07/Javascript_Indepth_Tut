@@ -50,3 +50,6 @@ console.log('End'); // end will be printed after 3s
 // Controlled Vs Uncontrolled Components in Reactjs
 
 // 1. How to make fast reterival from 1M of data ? 
+
+
+

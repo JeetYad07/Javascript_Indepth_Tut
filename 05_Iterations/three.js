@@ -28,10 +28,10 @@ map.set('address','Ludhiana')
 
 // console.log(map)
 
-// for (const key of map) {
-//     // console.log(key);  // will return key value in an array
-//     console.log(key[key]);
-// }
+for (const key of map) {
+    // console.log(key);  // will return key value in an array
+    // console.log(key[key]);
+}
 for (const [key,value] of map) {
     // console.log(key,':-',value);
     
@@ -42,9 +42,9 @@ const myObj = {
     'game2':'football',
     'game3':'cricket'
 }
-// for (const obj of myObj) {
-//     console.log(obj);
-// }
+for (const obj of myObj) {
+    console.log(obj);
+}
 // for (const [key,value] of myObj) {
 //     console.log(key,':-',value)
 // }

@@ -29,7 +29,7 @@ const myNewGame = "  jeet   "
 // console.log(url.replace("jeet", "heer"));
 
 //find a specific char at any index
-const urlName = "jeet11@23.com";
+// const urlName = "jeet11@23.com";
 // console.log(urlName.charAt(0));
 // console.log(urlName.indexOf('@'));
 // console.log(urlName.lastIndexOf('@'));
@@ -52,10 +52,10 @@ const str1 = '    Saturday night plans';
 
 
 const str = "Jeet"
-function removeDuplicates(str){
+// function removeDuplicates(str){
 
 
 
-}
+// }
 
-removeDuplicates(str)
+// removeDuplicates(str)

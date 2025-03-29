@@ -8,7 +8,7 @@ function removeDuplicates(arr){
         }
         
     }
-    return arr1.join('');
+    return arr1.join(',');
    
 }
 // 0 

@@ -9,7 +9,7 @@
 // return the temp arr
 // function reverseArr(arr){
 //     let n = arr.length;
-//     let arr1 = [n]
+//     let arr1 = []
 //     for(let i = 0;i<n;i++){
 //         arr1[i] = arr[n-i-1]
 //     }

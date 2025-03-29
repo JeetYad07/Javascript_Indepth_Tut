@@ -28,11 +28,11 @@ promiseOne.then(function(){
 // Another Promise
 new Promise(function(resolve,reject){
     setTimeout(function(){
-        console.log(`Aysnc task 2 is completed`);
+        // console.log(`Aysnc task 2 is completed`);
         resolve()
     },1000)
 }).then(function(){
-    console.log(`Aysnc 2 resolved`)
+    // console.log(`Aysnc 2 resolved`)
 })
 
 const promiseThree = new Promise(function(resolve,reject){
@@ -41,7 +41,7 @@ const promiseThree = new Promise(function(resolve,reject){
     },1000)
 })
 promiseThree.then(function(users){
-    console.log(users)
+    // console.log(users)
 })
 
 const promiseFour = new Promise(function(resolve,reject){
@@ -58,16 +58,16 @@ const promiseFour = new Promise(function(resolve,reject){
 
 promiseFour
 .then((user)=>{
-    console.log(user) 
+    // console.log(user) 
     return user.username
 })
 .then((username)=>{
-    console.log(username)
+    // console.log(username)
 })
 .catch((error)=>{
-    console.log(error)
+    // console.log(error)
 })
-.finally(()=>console.log(`The Promise is either resolved or rejected`))
+// .finally(()=>console.log(`The Promise is either resolved or rejected`))
 
 const promiseFive = new Promise((resolve,reject)=>{
     setTimeout(()=>{
@@ -85,9 +85,9 @@ const promiseFive = new Promise((resolve,reject)=>{
 async function consumePromiseFive() {
     try {
         const response =    await promiseFive
-        console.log(response);
+        // console.log(response);
     } catch (error) {
-        console.log(error);
+        // console.log(error);
         
     }
  
@@ -113,7 +113,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
     return response.json()
 })
 .then((data)=>{
-    console.log(data);
+    // console.log(data);
     
 })
 .catch((error)=> console.log(error))

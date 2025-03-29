@@ -28,7 +28,7 @@
 // if (true) {
 //         let a =10
 //         console.log("Inner ",a)
-    // }
+//     }
     
 // console.log(a);  
 
@@ -40,7 +40,7 @@ function a(){
         
     }
     // console.log(website)
-    b()
+     b()
 }
 // a()
   
@@ -62,7 +62,7 @@ function addone(num){
     return num + 1
 }
 
-addTwo(5)
+// console.log(addTwo(5))
 // expression/like variable
 const addTwo = function (num){
     return num + 2

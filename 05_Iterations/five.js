@@ -25,7 +25,7 @@ const coding = [
 ]
 
 coding.forEach((item)=>{
-    // console.log(item);
+    console.log(item);
     console.log(item.name);
 
 })

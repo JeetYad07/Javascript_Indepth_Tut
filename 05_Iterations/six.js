@@ -2,10 +2,10 @@
 
 const myArr = [1,2,3,4,5,6,7,8,9,10]
 
-// const justArr =  myArr.forEach((item)=>{
-//     // console.log(item)
-//     return item
-// });
+const justArr =  myArr.forEach((item)=>{
+    // console.log(item)
+    // return item
+});
 
 //   console.log(justArr);
 

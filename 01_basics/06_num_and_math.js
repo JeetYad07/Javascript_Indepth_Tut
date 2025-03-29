@@ -3,7 +3,7 @@ const score = 400;
 
 const balance = new Number(19201.00)
 // console.log(balance);
-// console.log( balance.toString())
+// console.log(balance.toString())
 const num = 123.897
 // console.log(balance.toFixed(2)); // should use in ecommerce website 
 // console.log(num.toPrecision(4));  // it will check the value and based on that will take action

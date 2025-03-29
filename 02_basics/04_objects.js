@@ -28,12 +28,12 @@ const user2 = {3:'a',4:'b'}
 const user3 = {5:'a',6:'b'}
 // const user4 = {user1,user2,user3} // it will be having nested objects
 // another way is using Object.assign() method: syntax:
-//  Object.assign(target,source): return a new object with all key values of all the
+//  Object.assign(target,source) //return a new object with all key values of all the
 //  object and take consider obj1 as target object
 // const user4 = Object.assign(user1,user2,user3)
 // const user4 = Object.assign({},user1,user2,user3) //{}:target object,source: user1,user2,user3
 //another is using spread operator
-const user4 = {...user1,...user2,...user3}
+// const user4 = {...user1,...user2,...user3}
 // console.log(user4);
 
 // access someparticular values from a nested objects
@@ -64,3 +64,15 @@ const course = {
 // course.courseDuration  :normal way
 // const {courseName,courseInstructor,courseDuration} = course //destructuring way
 // console.log(courseDuration);
+
+/***
+ * Q: How many ways to access an object?
+ * A: Total 7
+ *    1. Dot notation -> object.property
+ *    2. Bracket Notation -> object[property]
+ *    3. using keys -> object.key()
+ *    4. using values -> object.value()
+ *    5. using entries -> object.entries()
+ *    6. using destructing
+ *    7. if object is map -> we can access using .get()
+ */

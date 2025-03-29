@@ -15,14 +15,14 @@
 
 // how to write two iffe func:
 // named iffe
- (function chai(){
-        console.log(`DB Connected`)
- })();
+//  (function chai(){
+//         console.log(`DB Connected`)
+//  })();
 
- //unnamediffe
- ((name) =>{
-        console.log(`DB Connected 2 ${name}`)
- })("Jeet")
+//  //unnamediffe
+//  ((name) =>{
+//         console.log(`DB Connected 2 ${name}`)
+//  })("Jeet")
 
  // how to stop execution context in iife  ***Interview question*****
 //  If we write like above it will give error, to avoid the error we need to stop executing ;

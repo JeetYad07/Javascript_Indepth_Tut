@@ -11,6 +11,7 @@ let isLoggedIn = false
 // Primitve data types
 // number => 2 to pow 53
 // bigInt
+//String
 //boolean => true/false
 // null(empty) => standalone value
 //undefined => value not defined
@@ -18,11 +19,11 @@ let isLoggedIn = false
 
 
 // Non-Primitive
-// object, Array, String
+// object, Array, 
 
 // console.log(typeof "") 
 // console.log(typeof null) // null is an object
-// console.log(typeof undefined) // undefined.
+console.log(typeof undefined) // undefined.
 
 // console.log(a)
 // var a

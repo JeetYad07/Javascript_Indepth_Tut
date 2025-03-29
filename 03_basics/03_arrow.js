@@ -9,7 +9,7 @@ const user = {
     }
     
 }
-// user.welcomeMessage  : it will return the address
+// user.welcomeMessage //  : it will return the address
 // user.welcomeMessage(); // Jeet, Welcome to Website
 // user.userName = "Meera"
 // user.welcomeMessage()
@@ -19,10 +19,10 @@ const user = {
 
 
 // in function we cannot access this or this will not work
-function chai(){
-    let userName = "Jeet" // 
-    console.log(this.user)
-}
+// function chai(){
+//     let userName = "Jeet" // 
+//     console.log(this.user)
+// }
 // console.log(chai())
 
 // const chai = function(){
@@ -31,10 +31,10 @@ function chai(){
 // }
 
 
-const chai = () => {
-    let userName = "Jeet" // 
-    console.log(this)
-}
+// const chai = () => {
+//     let userName = "Jeet" // 
+//     console.log(this)
+// }
 
 // chai()
 // arrow function
@@ -48,6 +48,6 @@ const chai = () => {
 // const addTwo = (num1,num2) =>  (num1 + num2)
 //will pass object
 const addTwo = (num1,num2) =>  ({key:"1"})
-console.log(addTwo(2,3))
+// console.log(addTwo(2,3))
 
 const myArr = [2,3,4,1,4]

@@ -54,5 +54,5 @@
 // 51. What are cookies ?
 // 52. typeOf operator ?
 // 53. What is this in javascript and How it behaves in various scenarios ?
-// 54. How do you optimize the performance of application
+// 54. How do you optimize the performance of React application
 // 55. What is meant by debouncing and throttling

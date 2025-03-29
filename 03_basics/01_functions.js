@@ -41,21 +41,21 @@ function loginUserMessage(userName = "Heer"){
     return `${userName} logged in successfully`
     // console.log("Welcome to our website");
 }
-// console.log(loginUserMessage("Jeet"));
+console.log(loginUserMessage("Jeet"));
 // console.log(loginUserMessage(""));
 // console.log(loginUserMessage("Jeet"));
 
 //common situation in ecom: where we don't know num of parameter
 
 function myFunction1(num){
-    console.log(num)
+    // console.log(num)
 }
 function myFunction2(...num){ // rest operator wil combine the parameters and return it in an array
-    console.log(num)
+    // console.log(num)
 }
 // interview question
 function myFunction3(val1,val2,...num){ // rest operator wil combine the parameters and return it in an array
-    console.log(num)
+    // console.log(num)
 }
 // myFunction1(5) 
 // myFunction2(5,2,3) // in this case we are pass 3 arguments, but it is taking only one, to resolve this issue

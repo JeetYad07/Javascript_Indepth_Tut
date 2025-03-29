@@ -1,7 +1,7 @@
 //array
 
 const myArr = [0,1,2,3,4,5];
-// javascript are resizable
+// javascript array are resizable
 // console.log(myArr[0]);
 // array object follow the Shallow copy pattern/ meaning original and copy array both shares the same reference.
 const myHeros = ['Shaktiman','joy']
@@ -27,12 +27,12 @@ const newArr = myArr.join()  // add all elements of array into strings
 // console.log(typeof newArr);
 
 //slice,splice
-console.log("A ",myArr);
+// console.log("A ",myArr);
 const myArr3 = myArr.slice(1,4) // return the value of array from the original arr
-console.log(myArr3);
-console.log("B ",myArr);
+// console.log(myArr3);
+// console.log("B ",myArr);
 const myArr4 = myArr.splice(1,3)
 console.log(myArr4);
-console.log("C ",myArr);
+// console.log("C ",myArr);
 // Key difference: Slice: return the copy of original array based on the index, start and end, donot includes the last index: donot change the original array
 // Splice:remove the elements from the original array, based on the index start and end

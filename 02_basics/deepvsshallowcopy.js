@@ -7,19 +7,19 @@ const original = {
     details:{age:25,city:"Ludhiana"}
   }
   
-  // console.log(original)
+  console.log('firstO',original)
   
-  // const shallowCopy = {...original}
-  // shallowCopy.details.age = 26
+  const shallowCopy = {...original}
+  shallowCopy.details.age = 26
   
-  // console.log(shallowCopy)
+  console.log('shall: ',shallowCopy)
   
   // Deep copy
   const deepCopy = JSON.parse(JSON.stringify(original))
   
   deepCopy.details.age = 27
-  console.log(original)
-  console.log(deepCopy)
+  console.log('Original',original)
+  console.log('deepcopy',deepCopy)
 
 
   let originalArr = [1,2,[3,5]];
@@ -31,7 +31,7 @@ const original = {
 // deep copy
 
 
-let deepCopy = JSON.parse(JSON.stringify(originalArr));
-deepCopy[2][0] = 88;
-console.log(originalArr)
-console.log(deepCopy)
+// let deepCopy = JSON.parse(JSON.stringify(originalArr));
+// deepCopy[2][0] = 88;
+// console.log(originalArr)
+// console.log(deepCopy)

@@ -20,6 +20,6 @@ const getDate = new Date();
 // let myCreatedDate = new Date("09-07-2024")
 // console.log(myCreatedDate);
 
-let myTimeStamp = Date.now();
+// let myTimeStamp = Date.now();
 // console.log(myTimeStamp); // it will print time in milliseconds
 // console.log(Math.floor(myTimeStamp / 1000)); // it will print time in seconds

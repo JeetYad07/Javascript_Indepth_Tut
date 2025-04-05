@@ -32,19 +32,21 @@ const user3 = {5:'a',6:'b'}
 //  object and take consider obj1 as target object
 // const user4 = Object.assign(user1,user2,user3)
 // const user4 = Object.assign({},user1,user2,user3) //{}:target object,source: user1,user2,user3
+// console.log(user4);
+
 //another is using spread operator
 // const user4 = {...user1,...user2,...user3}
 // console.log(user4);
 
 // access someparticular values from a nested objects
 const user = [
-    {name:"Jeet",age:25,location:"Ludhiana"},
+    {name:"Jeetu",age:25,location:"Ludhiana"},
     {name:"Jeet",age:25,location:"Ludhiana"},
     {name:"Jeet",age:25,location:"Ludhiana"},
     {name:"Jeet",age:25,location:"Ludhiana"},
     {name:"Jeet",age:25,location:"Ludhiana"},
 ]
-// console.log(user[0].location)
+console.log(user[0].location)
 // console.log(tinderUser);
 // some other method
 // console.log(Object.keys(tinderUser)); // it will return all the keys in a new array

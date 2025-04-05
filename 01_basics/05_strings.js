@@ -38,8 +38,8 @@ const myNewGame = "  jeet   "
 // console.log(urlName.repeat(3)); // if repeat(count),based on count, it will repeat the string, if passed count = 0,return empty string''
 
 //split:if we wanted to convert a string in array: 
-// const urlName = "jeet-bahadur-yadav";
-// console.log(urlName.split("@",2)); // it will return array of string
+const urlName = "jeet-bahadur-yadav";
+// console.log(urlName.split("-",1)); // it will return array of string
 
 // const urlName = "";
 // console.log(urlName.split('@')); // it will return empty string

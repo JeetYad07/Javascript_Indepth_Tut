@@ -49,8 +49,8 @@ const  myFunction = function(){
 let myName = "heer"; // memory will be store in stack
 let anotherName = myName;  // copy of myName will be pass to anotherName avriable
 anotherName = "jeet"
-// console.log(myName); // heer
-// console.log(anotherName); // jeet : why because we have copy of the variable not refernce or address
+console.log(myName); // heer
+console.log(anotherName); // jeet : why because we have copy of the variable not refernce or address
 
 let userOne = {
     email:"jeet@google.com",

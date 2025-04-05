@@ -32,7 +32,7 @@ const myArr3 = myArr.slice(1,4) // return the value of array from the original a
 // console.log(myArr3);
 // console.log("B ",myArr);
 const myArr4 = myArr.splice(1,3)
-console.log(myArr4);
+// console.log(myArr4);
 // console.log("C ",myArr);
 // Key difference: Slice: return the copy of original array based on the index, start and end, donot includes the last index: donot change the original array
 // Splice:remove the elements from the original array, based on the index start and end
